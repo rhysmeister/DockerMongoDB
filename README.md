@@ -33,6 +33,11 @@ netstat -tulpn | grep LISTEN
 ```bash
 mongo
 ```
+The instance is setup with a replset flag so you probably want to....
+
+```
+mongo> rs.initiate();
+```
 
 # Delete the container volumes
 
